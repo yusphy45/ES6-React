@@ -1,0 +1,11 @@
+{
+  "name": "ES6-React",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-traceur": "^0.17.1",
+    "run-sequence": "^1.1.1"
+  }
+}

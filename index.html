@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<template id="nameTagTemplate">
+  <style>
+    :host{
+      width: 500px;
+      height: 600px;
+    }
+    .outer {
+      border: 2px solid brown;
+    }
+  </style>
+  <div class="outer">
+    <div class="boilerplate">
+      Hi! My name is
+    </div>
+    <div class="name">
+      <div style="color: red">
+        <content select=".first"></content>
+      </div>
+      <div style="color: yellow">
+        <content select="div"></content>
+      </div>
+      <div style="color: blue">
+        <content select=".email"></content>
+      </div>
+    </div>
+  </div>
+</template>
+<div id="nameTag">
+  <div class="first">Hnajinchi</div>
+  <div>B.Love</div>
+  <div class="email">bob@</div>
+</div>
+<script src="./dist/compile.js"></script>
+</body>
+</html>
