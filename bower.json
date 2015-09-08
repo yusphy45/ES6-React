@@ -1,0 +1,22 @@
+{
+  "name": "ES6-React",
+  "version": "0.0.0",
+  "authors": [
+    "yusphy45 <yusphyj45@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "TweenJS": "~0.6.1",
+    "EaselJS": "~0.8.1",
+    "PreloadJS": "~0.6.1",
+    "SoundJS": "~0.6.1"
+  }
+}
