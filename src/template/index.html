@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" manifest="dist/index.manifest">
+<head>
+  <meta charset="UTF-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.app.css %>">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+</head>
+<body>
+<canvas id="canvas" width="400" height="400"></canvas>
+<script src="<%= htmlWebpackPlugin.files.chunks.vendor.entry %>"></script>
+<script src="<%= htmlWebpackPlugin.files.chunks.app.entry %>"></script>
+</body>
+</html>
